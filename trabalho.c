@@ -16,7 +16,7 @@
      printf("total:%d\n",t);
      
      if(t>=480) {
-         printf("quantidade adicionada ao banco de horas:%d",480-t);
+         printf("quantidade adicionada ao banco de horas:%d\n",480-t);
      }
      else(t<480); {
          printf("quantidade retirada do banco de horas:%d",480-t);
