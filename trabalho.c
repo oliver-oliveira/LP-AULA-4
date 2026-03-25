@@ -12,13 +12,13 @@
     
     printf("horas trabalhadas:%d\n minutos:%d\n",x,y);
      
-     t=x*60+x;
+     t=x*60;
      printf("total:%d\n",t);
      
      if(t>=480) {
          printf("quantidade adicionada ao banco de horas:%d\n",480-t);
      }
-     else(t<480); {
+     else {
          printf("quantidade retirada do banco de horas:%d",480-t);
      }
      return 0;
